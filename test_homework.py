@@ -8,6 +8,7 @@ def test_greeting():
     age = 25
     output = f'Привет, {name}! Тебе {age} лет.'
     assert output == "Привет, Анна! Тебе 25 лет."
+    print(output)
 
 
 def test_rectangle():
@@ -25,6 +26,8 @@ def test_circle():
     assert area == 1661.9025137490005
     length = 2 * pi * r
     assert length == 144.51326206513048
+    print(f'{area=}')
+    print(f'{length=}')
 
 
 def test_random_list():
